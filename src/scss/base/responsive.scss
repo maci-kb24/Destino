@@ -1,0 +1,23 @@
+@media (max-width: 991px) {
+    .header-inner {
+      display:flex;
+      flex-direction: column;
+    }
+    .menu {
+      display:none;
+    }
+    .active {
+      display:block;
+    }
+    .navbar-toggle {
+      display:block;
+    }
+    #home h1 {
+        font-size:125px;
+    }
+    #home h2 {
+        font-size:42px;
+    }
+  }
+
+/*breakpoint max-width:1425px */
