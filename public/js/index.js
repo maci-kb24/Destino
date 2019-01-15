@@ -93,11 +93,19 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var mainNav = document.getElementById('menu');
-var navBarToggle = document.getElementById('js-navbar-toggle');
-navBarToggle.addEventListener('click', function () {
-  mainNav.classList.toggle('active');
-});
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("header-inner").style.padding = "30px 10px";
+    document.getElementById("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("header-inner").style.padding = "80px 10px";
+    document.getElementById("logo").style.fontSize = "35px";
+  }
+}
 
 /***/ }),
 

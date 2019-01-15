@@ -1,0 +1,80 @@
+/* FORM */
+  
+.search-destination-form {
+    text-align: center;
+    background: url('../images/find.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 60px 0px;
+    h1 {
+      margin: 0px;
+      font-weight: normal;
+    }
+  }
+  
+  .form {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    p {
+      margin: 0px;
+      padding: 8px;
+      text-align: left;
+    }
+  }
+  
+  .destination, .adventure, .min-price, .max-price {
+    margin-right: 10px;
+    flex: 0 1 15%;
+  }
+  
+  .form {
+    input {
+      width: 100%;
+      padding: 0px 10px;
+      height: 56px;
+      background-color: transparent;
+      border: 2px solid #848A99;
+      &[type=text]:focus {
+        border: 1px solid #fe435b;
+      }
+    }
+    select {
+      background-color: transparent;
+      color: #848A99;
+      padding: 0px 15px;
+      height: 56px;
+      border: 2px solid #848A99;
+      background-image: url('../images/down.png');
+      background-position: center right;
+      background-repeat: no-repeat;
+      width: 100%;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      &:focus {
+        border: 1px solid #fe435b;
+      }
+    }
+  }
+  
+  .min-price, .max-price {
+    flex: 0 1 6%;
+  }
+  
+  .form .subscribe {
+    height: 56px;
+    transform: translateY(15px);
+    background-color: #FF455C;
+    color: white;
+    border: 0px;
+    padding: 10px 45px;
+    cursor: pointer;
+    &:hover {
+      background-color: #fe2a45;
+      transition: all 200ms ease;
+    }
+  }

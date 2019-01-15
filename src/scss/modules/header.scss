@@ -1,28 +1,23 @@
-#header {
+.header {
     position: fixed;
     top: 47px;
     width: 100%;
     z-index: 2;
-    display:flex;
-    justify-content: center;
+    // display:flex;
+    // justify-content: center;
   }
   
-  .header-inner {
+  #header-inner {
     background-color: #131a2f;
     max-width: 65%;
     margin: 0 auto;
     display: flex;
-    flex-grow: 1;
-    // flex-wrap: wrap;
-    /* display: grid; */
-    /* grid-template-columns: auto auto auto; */
     color: white;
     height: 130px;
     align-items: center;
-    // justify-content: space-around;
+    justify-content: flex-start;
     position: relative;
-    /* padding: 48px 0px 30px 0px; */
-    /* height:100%; */
+    transition: 0.4s;
   }
   
   .navbar-toggle {
@@ -40,22 +35,10 @@
 }
   /* LOGO */
   
-  .logo {
-    // justify-self: flex-start;
-    // flex:0 1 auto;
+  #logo {
     padding-left: 72px;
-    // height:100%; 
-    /* margin: 10px; */
-    /* padding: 20px; */
     position: relative;
-    /* padding-top:40px; */
-    /* display: flex; */
-    // display: inline-block;
-    // margin-right: auto;
-    /* justify-content: flex-start; */
-    /* flex-direction: column; */
-    /* text-align: center; */
-    /* align-items: center; */
+    
     h1 {
       text-transform: uppercase;
       font-size: 24px;
@@ -70,11 +53,9 @@
       font-size: 10px;
       color: #929292;
       margin-top: 2px;
-      /* padding-bottom: 5px; */
     }
     img {
       max-width: 100%;
-      /* padding: 10px 20px 0px 20px; */
       position: absolute;
       top: -35px;
       left: 40px;
@@ -115,8 +96,6 @@
     }
   }
 
-  
-  
   /* SEARCH-BUTTON */
   
   .search-button {

@@ -22,6 +22,7 @@
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
-    "laravel-mix": "^4.0.12"
+    "laravel-mix": "^4.0.12",
+    "live-server": "^1.2.1"
   }
 }
