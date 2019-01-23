@@ -86,14 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/***/ "./src/js/index.js":
+/*!*************************!*\
+  !*** ./src/js/index.js ***!
+  \*************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-console.log("hello world");
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open '/home/marjan/mac/projects/projects-vezbi/destino/src/js/index.js'");
 
 /***/ }),
 
@@ -109,13 +109,13 @@ console.log("hello world");
 /***/ }),
 
 /***/ 0:
-/*!**************************************************!*\
-  !*** multi ./src/index.js ./src/scss/style.scss ***!
-  \**************************************************/
+/*!*****************************************************!*\
+  !*** multi ./src/js/index.js ./src/scss/style.scss ***!
+  \*****************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/marjan/mac/projects/projects-vezbi/destino/src/index.js */"./src/index.js");
+__webpack_require__(/*! /home/marjan/mac/projects/projects-vezbi/destino/src/js/index.js */"./src/js/index.js");
 module.exports = __webpack_require__(/*! /home/marjan/mac/projects/projects-vezbi/destino/src/scss/style.scss */"./src/scss/style.scss");
 
 
